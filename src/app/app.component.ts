@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular100';
+
+  user = {
+    name:'anh vu',
+    age:'27'
+  }
+
+  handler(){
+    console.log('clicked')
+  }
 }
